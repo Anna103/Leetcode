@@ -18,7 +18,7 @@ public class ConvertIntegerBinary {
     public static void main(String args[]){
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         //String s = br.readLine();
-        int input_decimal = 4;
+        int input_decimal = 10;
         String output  = "";
         System.out.println(input_decimal);
         String ans = convert_to_binary(input_decimal, output);
